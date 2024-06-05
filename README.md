@@ -7,11 +7,11 @@ In this we'll create simple ML model and deploy it using Flask api's
 * There is another way also, i.e. by providing input to ML model through JSON. for this run request.py
 
 ## Containerization:
-*Built Docker Image: 
+* Built Docker Image: 
 
 docker build -t flask-docker-app .
 
-*Run Docker Image:
+* Run Docker Image:
 
 docker run -d -p 5000:5000 flask-docker-app
 
